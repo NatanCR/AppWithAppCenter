@@ -44,6 +44,7 @@
 		8ACEDAF51042373215CB6CDF /* Pods-MacroChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacroChallenge.release.xcconfig"; path = "Target Support Files/Pods-MacroChallenge/Pods-MacroChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		99DDA4AC3F00AD2C178A301F /* Pods_MacroChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacroChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13C48862A1405B600449622 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		D13C48872A141ABD00449622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D191E16C2A13F88100F4BB79 /* MacroChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacroChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D191E16F2A13F88100F4BB79 /* MacroChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroChallengeApp.swift; sourceTree = "<group>"; };
 		D191E1712A13F88100F4BB79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -135,6 +136,7 @@
 		D191E16E2A13F88100F4BB79 /* MacroChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				D13C48872A141ABD00449622 /* Info.plist */,
 				D191E16F2A13F88100F4BB79 /* MacroChallengeApp.swift */,
 				D191E1712A13F88100F4BB79 /* ContentView.swift */,
 				D191E1732A13F88200F4BB79 /* Assets.xcassets */,
@@ -411,6 +413,7 @@
 /* Begin XCBuildConfiguration section */
 		D191E18E2A13F88200F4BB79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13C48862A1405B600449622 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -471,6 +474,7 @@
 		};
 		D191E18F2A13F88200F4BB79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13C48862A1405B600449622 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -535,6 +539,7 @@
 				DEVELOPMENT_TEAM = 3SWCGFCJF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacroChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -565,6 +570,7 @@
 				DEVELOPMENT_TEAM = 3SWCGFCJF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MacroChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
