@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  MacroChallenge
+//
+//  Created by Natan de Camargo Rodrigues on 16/05/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_CENTER_KEY = 4f3b4894-823d-4288-9930-0aef316b737e
