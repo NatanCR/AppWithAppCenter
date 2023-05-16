@@ -1,0 +1,6 @@
+framework module Pods_MacroChallenge_MacroChallengeUITests {
+  umbrella header "Pods-MacroChallenge-MacroChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
