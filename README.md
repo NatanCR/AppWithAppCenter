@@ -1,2 +1,2 @@
-# MacroChallenge
-Macro Challenge App
+# App with AppCenter
+App using AppCenter
